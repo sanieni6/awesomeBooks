@@ -106,6 +106,5 @@ I would like to thank Microverse for the inspiring.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📋License <a name="license"></a>
-This project is [MIT](LICENSE.md) licensed. <br>
-Based on an original design idea by Cindy Shin in Behance.
+This project is [MIT](LICENSE.md) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
