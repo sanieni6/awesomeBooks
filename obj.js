@@ -23,11 +23,11 @@ function generate() {
   bookSection.innerHTML = '';
   books.forEach((book) => {
     bookSection.insertAdjacentHTML('beforeend',
-      `<div>
-            <h2>${book.title}</h2>
-            <h4>${book.author}</h4>
+      `<div class="each-book">
+            <div class="middle-section">
+              <h2 class="book-title">"${book.title}" by ${book.author}</h2>
+            </div>
             <button class="remove">Remove</button>
-            <hr>
         </div>`);
   });
   const remove = Array.from(document.querySelectorAll('.remove'));
