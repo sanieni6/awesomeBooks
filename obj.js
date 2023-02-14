@@ -19,8 +19,6 @@ const saveLocalStorage = () => {
 const removeBook = (index) => {
   books = books.filter((book, id) => index !== id);
 };
-// add clases
-// funtion create new book
 function generate() {
   bookSection.innerHTML = '';
   books.forEach((book) => {
