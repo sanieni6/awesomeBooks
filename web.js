@@ -17,6 +17,9 @@ function showList() {
   listSection.classList.add('display');
   listSection.classList.remove('hidden');
   sectionTitle.classList.remove('hidden');
+  listButton.style.color = '#0000ff';
+  contactButton.style.color = '#000';
+  addButton.style.color = '#000';
 }
 
 function showForm() {
@@ -24,6 +27,9 @@ function showForm() {
   addSection.classList.remove('hidden');
   contactSection.classList.add('hidden');
   sectionTitle.classList.add('hidden');
+  listButton.style.color = '#000';
+  addButton.style.color = '#0000ff';
+  contactButton.style.color = '#000';
 }
 
 function showContact() {
@@ -31,6 +37,9 @@ function showContact() {
   addSection.classList.add('hidden');
   contactSection.classList.remove('hidden');
   sectionTitle.classList.add('hidden');
+  listButton.style.color = '#000';
+  addButton.style.color = '#000';
+  contactButton.style.color = '#0000ff';
 }
 
 window.onload = defaultTry;
