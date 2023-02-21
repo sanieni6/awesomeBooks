@@ -12,7 +12,7 @@ body {
 
 .displayed-books {
   width: 90%;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .each-book {
@@ -138,6 +138,8 @@ body {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
+  background-color: #fff;
+  z-index: 9999;
 }

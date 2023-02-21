@@ -2,7 +2,7 @@
 const bookSection = document.querySelector('.displayed-books');
 const titleInput = document.querySelector('.title-input');
 const authorInput = document.querySelector('.author-input');
-const addBook = document.querySelector('.add-book');
+const form = document.getElementById('forma');
 class Book {
   constructor(title, author) {
     this.title = title;
@@ -51,10 +51,12 @@ class BookShelf {
 }
 
 const bookShelt1 = new BookShelf();
-
-addBook.addEventListener('click', () => {
+form.addEventListener('submit', (event) => {
   const title = titleInput.value;
   const author = authorInput.value;
   const book = new Book(title, author);
   bookShelt1.addBook(book);
+  titleInput.value = '';
+  authorInput.value = '';
+  event.preventDefault();
 });
